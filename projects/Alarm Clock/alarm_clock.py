@@ -217,7 +217,7 @@ secs.pack(side=LEFT)
 
 Button(root, text="Set Alarm", font=("Helvetica 15"), command=Threading).pack(pady=20)
 
-button = Button(root, text="Stop Alarm", bg="red", fg="white", command=stop_alarm).pack(
+my_button = Button(root, text="Stop Alarm", bg="red", fg="white", command=stop_alarm).pack(
     pady=30
 )
 
